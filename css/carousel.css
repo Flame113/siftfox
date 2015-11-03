@@ -4,9 +4,20 @@
 
 body {
   padding-bottom: 40px;
+  padding-top: 50px;
   color: #5a5a5a;
 }
 
+/* CONTENT CONTAINER
+-------------------------------------------------- */
+.content-container {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.standout-text {
+  padding: 0 150px;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
