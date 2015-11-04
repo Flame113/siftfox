@@ -1,24 +1,65 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-
+html {
+  position: relative;
+  min-height: 100%;
+  /* Margin bottom by footer height */
+}
 body {
   padding-bottom: 40px;
   padding-top: 50px;
   color: #5a5a5a;
 }
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 120px;
+  background-color: #f5f5f5;
+}
+.footer > .container {
+  padding: 60px 15px 0;
+}
+.center {text-align: center;}
 
 /* CONTENT CONTAINER
 -------------------------------------------------- */
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
 .content-container {
   padding: 40px 15px;
-  text-align: center;
 }
-
+.gray-section {
+  border-bottom: 1px solid #efefef;
+  padding: 80px 0;
+  background-color: #eee;
+}
 .standout-text {
   padding: 0 150px;
 }
-
+.about-us p {
+  margin: 0 0 30px 0;
+  font-size: 20px;
+}
+.fa-facebook-official:hover {
+  color: rgb(59, 89, 152);
+  cursor: pointer;
+}
+.fa-twitter-square:hover {
+  color: rgb(0, 172, 237);
+  cursor: pointer;
+}
+.siftfox-about {
+  font-style: italic;
+  font-size: 18px !important;
+}
+.about-bio {
+  font-size: 1.2em !important;
+}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -43,7 +84,6 @@ body {
 .navbar-wrapper .navbar .container {
   /*width: auto;*/
 }
-
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -70,7 +110,23 @@ body {
   min-width: 100%;
   height: 500px;
 }
-
+.carousel-caption { bottom: 0; top: 130px;}
+.carousel-inner .item {
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.carousel-inner .item.first {
+  background-image: url('images/header-background-blue.jpg');
+}
+.carousel-inner .item.second {
+  background-image: url('images/header-background-orange.png');
+}
+.carousel-inner .item.third {
+  background-image: url('images/header-background-blue.jpg');
+}
+.text-muted {
+  font-size: 70%;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
