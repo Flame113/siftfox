@@ -115,14 +115,14 @@ body {
   background-repeat: no-repeat;
   background-size:cover;
 }
-.carousel-inner .item.first {
-  background-image: url('images/header-background-blue.jpg');
+.carousel-inner .first {
+  background-image: url('../images/header-background-blue.jpg');
 }
-.carousel-inner .item.second {
-  background-image: url('images/header-background-orange.png');
+.carousel-inner .second {
+  background-image: url('../images/header-background-orange.png');
 }
-.carousel-inner .item.third {
-  background-image: url('images/header-background-blue.jpg');
+.carousel-inner .third {
+  background-image: url('../images/header-background-blue.jpg');
 }
 .text-muted {
   font-size: 70%;
