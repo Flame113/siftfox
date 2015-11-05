@@ -127,6 +127,30 @@ body {
 .text-muted {
   font-size: 70%;
 }
+.img-thumbnail #first {
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-image: url('https://www.lightcms.com/Websites/lys/PhotoGallery/2551100/1.jpeg');
+  height: 265px;
+  width: 100%;
+  padding: 4px;
+}
+.img-thumbnail #second {
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-image: url('https://www.lightcms.com/Websites/lys/PhotoGallery/2551100/2.jpg');
+  height: 265px;
+  width: 100%;
+  padding: 4px;
+}
+.img-thumbnail #third {
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-image: url('https://www.lightcms.com/Websites/lys/PhotoGallery/2551100/3.jpeg');
+  height: 265px;
+  width: 100%;
+  padding: 4px;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
