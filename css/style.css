@@ -151,7 +151,15 @@ body {
   width: 100%;
   padding: 4px;
 }
-
+.img-thumbnail #leader {
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-image: url('../images/avatars/adam-big.jpg');
+  background-position: center center;
+  height: 216px;
+  width: 100%;
+  padding: 4px;
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
