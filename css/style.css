@@ -7,8 +7,8 @@ html {
   /* Margin bottom by footer height */
 }
 body {
-  padding-bottom: 40px;
-  padding-top: 50px;
+  padding-bottom: 120px; /* height of the footer */
+  padding-top: 50px; /* height of the menu */
   color: #5a5a5a;
 }
 .footer {
@@ -22,7 +22,6 @@ body {
 .footer > .container {
   padding: 60px 15px 0;
 }
-.center {text-align: center;}
 
 /* CONTENT CONTAINER
 -------------------------------------------------- */
